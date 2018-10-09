@@ -116,8 +116,7 @@ const config = {
             { from: 'src/index.html', to: path.resolve(__dirname, 'build') }
         ]),
         new ManifestPlugin({
-            fileName: path.join(__dirname, 'manifest.json'),
-            publicPath: 'build/dist/',
+            fileName: path.join(__dirname, '/build/manifest.json'),
             filter: function(file) {
                 return !file.name.includes('fonts/') && !file.name.includes('.map') && !file.name.includes('.gz');
             },

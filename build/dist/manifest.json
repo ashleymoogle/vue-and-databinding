@@ -1,0 +1,5 @@
+{
+  "app_css": "css/app.bundle.css",
+  "app_js": "app.bundle.js",
+  "_./index.html": "../index.html"
+}
