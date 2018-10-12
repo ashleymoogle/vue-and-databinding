@@ -1,0 +1,28 @@
+html, body {
+    margin: 5px;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color:rebeccapurple;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    padding:10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
